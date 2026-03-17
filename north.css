@@ -34,6 +34,13 @@
 }
 
 .north {
-    width: 400px;
-    height: 300px;
+    width: 200px;
+    height: 200px;
+}
+
+body {
+    background-image: url("Quaderno.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: relative;
 }
