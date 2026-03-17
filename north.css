@@ -48,6 +48,6 @@ body {
 @media (max-width: 600px) {
     .north {
         width: 70%;
-        max-width: 300px;
+        
     }
 }

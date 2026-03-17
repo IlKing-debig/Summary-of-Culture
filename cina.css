@@ -37,8 +37,8 @@ body {
 }
 
 .china {
-    height: 200px;
-    width: 200px;
+    height: 700px;
+    width: 600px;
 }
 
 .button:hover {
@@ -48,6 +48,6 @@ body {
 @media (max-width: 600px) {
     .china {
         width: 70%;
-        max-width: 300px;
+        
     }
 }
