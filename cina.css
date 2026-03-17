@@ -45,3 +45,9 @@ body {
     cursor: pointer;
 }
 
+@media (max-width: 600px) {
+    .china {
+        width: 10%;
+        max-width: 300px;
+    }
+}

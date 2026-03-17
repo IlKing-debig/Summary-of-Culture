@@ -34,8 +34,8 @@
 }
 
 .north {
-    width: 200px;
-    height: 200px;
+    width: 700px;
+    height: 600px;
 }
 
 body {
@@ -43,4 +43,11 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: relative;
+}
+
+@media (max-width: 600px) {
+    .north {
+        width: 10%;
+        max-width: 300px;
+    }
 }
