@@ -1,0 +1,19 @@
+.div {
+    background-color: gray;
+    border-radius: 50px;
+    box-shadow: 2px 2px black;
+}
+
+.title {
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.button {
+    opacity: 0;
+} 
+
+.button:hover {
+    cursor: pointer;
+}
