@@ -47,7 +47,7 @@ body {
 
 @media (max-width: 600px) {
     .china {
-        width: 10%;
+        width: 50%;
         max-width: 300px;
     }
 }
