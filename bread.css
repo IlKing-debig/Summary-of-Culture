@@ -7,9 +7,9 @@
 .Title{
     background-color: gray;
     border-radius: 50px;
-    border-style: dotted;
     width: 1900;
     height: 100px;
+    box-shadow: 2px 2px black;
 }
 
 .Headers{
