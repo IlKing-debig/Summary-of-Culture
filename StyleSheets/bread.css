@@ -49,3 +49,44 @@ body{
 .egg:hover{
     cursor: pointer;
 }
+
+
+@media (max-width: 600px) {
+    
+    
+    .Title {
+        width: 95%;          
+        height: auto;         
+        margin: 10px auto;    
+        padding: 10px;        
+        border-radius: 20px;  
+    }
+
+    
+    .Title2 {
+        font-size: 30px;      
+        line-height: 1.2;     
+    }
+
+    
+    .Headers {
+        width: 90%;
+        margin: 15px auto;
+        padding: 15px;
+        display: block;      
+        font-size: 18px;
+        height: auto;         
+    }
+
+    
+    .Text {
+        font-size: 18px;
+        padding: 0 10px;
+        text-align: center;   
+    }
+
+    body {
+        background-attachment: scroll;
+        background-size: cover;
+    }
+}

@@ -69,3 +69,40 @@ body {
     background-color: gray;
     box-shadow: 3px 3px black;
 }
+
+
+
+@media (max-width: 600px) {
+    .MainDiv {
+        height: auto;
+        padding: 20px;
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .AboutMe, .Button {
+        width: 80%;
+        height: auto;
+        min-height: 60px;
+        margin: 10px auto;
+        display: block;
+        padding: 10px;
+    }
+
+    .Text {
+        font-size: 24px;
+        height: auto;
+    }
+
+    .hello, .helpme {
+        width: 90%;
+        height: auto;
+        min-height: 60px;
+        margin: 10px auto;
+        display: block;
+    }
+
+    .Title {
+        font-size: 35px;
+    }
+}

@@ -3,7 +3,7 @@
     <head>
         <title>Summary of culture - China</title>
         <div class="title1"><h1 class="title2">China</h1></div>
-        <link rel="stylesheet" href="cina.css">
+        <link rel="stylesheet" href="StyleSheets/cina.css">
         <br>
 
         <meta name="viewport" content="device-width, initial-scale=1.0">
@@ -11,17 +11,17 @@
 
     <body>
 
-        <img src="China.png" class="china">
+        <img src="Assets/China.png" class="china">
         <button class="button" onclick="click3()"></button>
 
         <script>
             function click3(){
                 let img = document.getElementsByClassName("china")[0];
 
-                if(img.src.match("China.png")) {
-                    img.src = "idkman.png";
+                if(img.src.match("Assets/China.png")) {
+                    img.src = "Assets/idkman.png";
                 } else {
-                    img.src = "China.png"
+                    img.src = "Assets/China.png"
                 }
 
             }

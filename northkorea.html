@@ -3,7 +3,7 @@
     <head>
         <meta name="viewport" content="device-width, initial-scale=1.0">
         <title>Summary of Culture - North Korea</title>
-        <link rel="stylesheet" href="north.css">
+        <link rel="stylesheet" href="StyleSheets/north.css">
 
         <div class="div"><h1 class="title">North Korea</h1></div>
     </head>
@@ -11,17 +11,17 @@
     <body>
         <br>
 
-        <img src="northkorea.png" class="north">
+        <img src="Assets/northkorea.png" class="north">
         <button class="button" onclick="click5()"></button>
 
         <script>
             function click5() {
                 let img = document.getElementsByClassName("north")[0];
 
-                if(img.src.match("northkorea.png")) {
-                    img.src = "no.png";
+                if(img.src.match("Assets/northkorea.png")) {
+                    img.src = "Assets/no.png";
                 } else {
-                    img.src = "northkorea.png";
+                    img.src = "Assets/northkorea.png";
                 }
             }
         </script>

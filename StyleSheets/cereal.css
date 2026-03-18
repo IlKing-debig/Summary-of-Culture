@@ -11,7 +11,7 @@
 
 
 body {
-    background-image: url(Quaderno.jpg);
+    background-image: url("Quaderno.jpg");
     background-repeat: no-repeat;
     background-attachment: relative;
     background-position: center;

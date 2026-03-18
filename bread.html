@@ -4,7 +4,7 @@
     <head>
         <title>Summary of Culture - Bread</title>
         <h1 class="Title2"><div class="Title">Bread</div></h1>
-        <link rel="stylesheet" href="bread.css">
+        <link rel="stylesheet" href="StyleSheets/bread.css">
 
         <meta name="viewport" content="device-width, initial-scale=1.0">
     </head>
@@ -12,7 +12,7 @@
 
     <body>
 
-        <img src="pane.jpg" class="Pane">
+        <img src="Assets/pane.jpg" class="Pane">
         <button class="egg" onclick="click2()">Easter Egg</button>
 
         <script>
@@ -20,10 +20,10 @@
                 let img = document.getElementsByClassName("Pane")[0];
 
 
-                if (img.src.match("pane.jpg")) {
-                    img.src = "uawshfiureahwtuhf8odsvhyushgioahew89fyq3ur9osfudg08pqh4weirufd08awsgyu.jpg";
+                if (img.src.match("Assets/pane.jpg")) {
+                    img.src = "Assets/uawshfiureahwtuhf8odsvhyushgioahew89fyq3ur9osfudg08pqh4weirufd08awsgyu.jpg";
                 } else {
-                    img.src = "pane.jpg";
+                    img.src = "Assets/pane.jpg";
                 }
             }
 
