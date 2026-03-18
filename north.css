@@ -34,8 +34,8 @@
 }
 
 .north {
-    width: 700px;
-    height: 600px;
+    width: 1000px;
+    height: 700px;
 }
 
 body {
@@ -47,7 +47,7 @@ body {
 
 @media (max-width: 600px) {
     .north {
-        width: 70%;
+        width: 80%;
         
     }
 }
